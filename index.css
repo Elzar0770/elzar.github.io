@@ -1,1 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.ytimg.com/vi/6DXR5klhpFU/maxresdefault.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста для улучшения читаемости */
+}
+
+header {
+  #reviews {
+    background-color: rgba(0, 0, 0, 0.6); /* Немного светлее для улучшения видимости текста */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста в блоке отзывов */
+  }
+  
+  .review {
+    background-color: rgba(50, 50, 50, 0.8); /* Немного светлее фон для улучшения контраста */
+    color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста в каждом отзыве */
+  }
+}
+
+header h1 {
+  margin: 0;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Более сильная тень для заголовка */
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Тень для текста в ссылках */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#reviews {
+  background-color: rgba(0, 0, 0, 0.6); /* Немного светлее фон для блока отзывов */
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста */
+}
+
+.review {
+  background-color: rgba(140, 111, 111, 0.8); /* Немного светлее фон для улучшения контраста */
+  color: white;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Светлее фон для футера */
+  color: white;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Тень для текста в футере */
+}
+
+input, textarea, select {
+  width: 70%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.912); /* Легкий фон для полей ввода */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2ecc71;
+}
 
